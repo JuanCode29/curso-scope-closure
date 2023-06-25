@@ -1,3 +1,4 @@
+//En el ámbito léxico, cuando se define una variable dentro de una función, esa variable es accesible dentro de esa función y cualquier función anidada dentro de ella. Sin embargo, las funciones internas no pueden acceder a las variables locales de las funciones externas.
 const myGlobal = 0;
 
 function myFunction(){
